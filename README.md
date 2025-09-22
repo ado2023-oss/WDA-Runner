@@ -13,6 +13,10 @@ UI自动化测试/局域网内控制iPhone测试
 
 服务启动之后： 访问  http://xx.xx.xx.xx:47000/live
 
+抖音看效果::
+
+1.79 复制打开抖音，看看【ado2023的作品】# 苹果# iPhone17  https://v.douyin.com/_j4gah-vqao/ xSl:/ 05/08 d@N.jp 
+
 #### 示例图
 ![](1.png)
 ![](2.png)
