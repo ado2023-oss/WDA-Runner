@@ -2,7 +2,7 @@
 UI自动化测试/局域网内控制iPhone测试
 # 使用说明：
 #### 1.ipa包没有签名过，因为无法使用爱思助手等工具安装到iPhone上，会提示“安装包验证失败”类似错误
-#### 2.使用resign_binary 进行签名
+#### 2.使用resign_binary (当前是arm64 M芯片的，如果是intel的mac需要使用 resign_intel) 进行签名
 ###### 命令：
 ###### chmox +x resign_binary 
 ### (Intel芯片的需要换成resign_intel)
