@@ -1,4 +1,4 @@
-# WDA-Runner
+# WDA-Runner （支持windows 、 mac 、iPhone 、安卓、Ubuntu 等等任何安装有浏览器的电脑）
 UI自动化测试/局域网内控制iPhone测试
 # 使用说明：
 #### 1.ipa包没有签名过，因为无法使用爱思助手等工具安装到iPhone上，会提示“安装包验证失败”类似错误
