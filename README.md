@@ -39,7 +39,10 @@ UI自动化测试/局域网内控制iPhone测试
 抖音看效果::
 
 1.79 复制打开抖音，看看【ado2023的作品】# 苹果# iPhone17  https://v.douyin.com/_j4gah-vqao/ xSl:/ 05/08 d@N.jp 
-youtube::     https://youtube.com/shorts/zlAmcaMOn6Q?si=Ed6_UKkAvar2AKyf
+
+
+youtube::     https://youtube.com/shorts/Dz0HmWH1ZFI?si=Ox7YPAl5GfyDcvgG
+
 
 #### 示例图
 ![](1.png)
