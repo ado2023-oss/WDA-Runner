@@ -1,3 +1,5 @@
+🌐 English | [中文](README.md)
+
 # 🚀 WDA-Runner Cross-Platform UI Automation Testing Tool
 
 > **Supported Platforms**: Windows, macOS, iPhone, Android, Ubuntu, and any device with a browser installed
@@ -89,7 +91,7 @@ resign_intel -cert 'Apple Development: xxx' -profile 'xxxx.mobileprovision' -os 
 
 - Wait for the screen to display, then the app should work normally!
 
-	![](5.png)
+![](5.png)
 	
 ##Using the App
 - Open the mobile app and start the service
@@ -97,19 +99,19 @@ resign_intel -cert 'Apple Development: xxx' -profile 'xxxx.mobileprovision' -os 
 - After service starts, access: http://xx.xx.xx.xx:47000/live to control your phone
 
 
-	### Example Screenshots
-<img src="1.png" alt="示例图1" width="300" height="649">
-<img src="2.png" alt="示例图2" width="300" height="548">
+### Example Screenshots
+![](1.png)
+![](2.png)
 	
-	Demo Videos::
+Demo Videos::
 	
- ### 
- ```bash
- https://v.douyin.com/_j4gah-vqao/
- ```
- ### youtube:: 
+### 
 ```bash
- https://youtube.com/shorts/Dz0HmWH1ZFI?si=Ox7YPAl5GfyDcvgG
+https://v.douyin.com/_j4gah-vqao/
+```
+### youtube:: 
+```bash
+https://youtube.com/shorts/Dz0HmWH1ZFI?si=Ox7YPAl5GfyDcvgG
 ```
 	
 ### Additional Notes: 
