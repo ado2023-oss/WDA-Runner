@@ -29,7 +29,7 @@
 	
 - Select the latest version from GitHub releases (Windows version is under development and will be available soon)
 
-- Open WDAInstaller and enter your Apple ID and password to log in
+- Open WDAInstaller and enter your Apple ID and password to log in **(⚠️⚠️⚠️ Strongly recommend creating a new Apple ID for signing, May revoke your existing certificates ⚠️⚠️⚠️)**
 
 - Click 'Install WDA-Runner' and wait for the installation progress to appear on your phone
 
