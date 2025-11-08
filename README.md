@@ -1,51 +1,101 @@
-# WDA-Runner （支持windows 、 mac 、iPhone 、安卓、Ubuntu 等等任何安装有浏览器的电脑，支持iOS13 ~ iOS26）
-UI自动化测试/局域网内控制iPhone测试
+# 🚀 WDA-Runner 跨平台UI自动化测试工具
 
-## 版本更新
-### 2025年11月04日更新说明：完善了一下鼠标滚动，键盘输入增加监听，更加友好输入
+> **支持平台**: Windows、macOS、iPhone、Android、Ubuntu 等任何安装有浏览器的设备
+> **iOS支持**: iOS13 ~ iOS26
+> **功能**: UI自动化测试 / 局域网内控制iPhone测试
 
-# 使用说明：
-#### 1.ipa包没有签名过，因为无法使用爱思助手等工具安装到iPhone上，会提示“安装包验证失败”类似错误
-#### 2.使用resign_binary (当前是arm64 M芯片的，如果是intel的mac需要使用 resign_intel) 进行签名
-###### 命令：
-###### chmox +x resign_binary 
-### (Intel芯片的需要换成resign_intel)
-###### resign_binary -cert 'Apple Development: xxx' -profile 'xxxx.mobileprovision' -os '18'    
-### (Intel芯片的需要换成resign_intel)
-###### 参数分别是::::: 证书名字 - 描述文件路径  - 系统版本
-######  可以自己购买三方的证书跟描述文件，一般闲鱼十几块钱，或者如果你有mac电脑，可以参照我的个人签教程.pdf ，7天免费  到期可以续签
+---
 
-## 已经集成鼠标跟键盘的一些简单事件
+## 📅 版本更新日志
 
+### 2025年11月04日
+- 🎯 完善鼠标滚动功能
+- ⌨️ 键盘输入增加监听，提供更友好的输入体验
 
-# 巨魔玩家请使用专用版本！！(部分巨魔玩家安装好App，启动会crash，经过实测，需要下载电脑版本的爱思助手，工具箱选择：实时屏幕后，等画面出来之后即可正常使用！！！)
-![](5.png)
+---
 
-服务启动之后： 访问  http://xx.xx.xx.xx:47000/live
+## 📖 使用指南
 
-## 放几组授权码
+### ⚠️ 重要提示
+- IPA包未签名，无法直接通过爱思助手等工具安装
+- 安装时如遇"安装包验证失败"错误，请按以下步骤操作
+- 安装方式有如下2种，可自行选择安装
 
-#### 53ac4624-b151-4286-9c23-0955bce092b0 --已使用
-#### ee29c385-4c57-4c46-a318-20cd8f013ff2 --已使用
-#### b5f9f582-5b4f-40ac-9931-c41191b4f003
-#### 8834b3cf-1709-4157-b2c7-facff7edfc86
-#### 1214ac90-9e93-4e45-b2fc-910ba3ab6d20
-#### 3addf92a-3c1c-4aaa-a822-f8545bb3b07c  --已使用
-#### bb956dc4-3eca-4fec-865e-ff199f7d510b  --已使用
-#### 6150065f-2c10-4ef1-a8ac-fe04c66d3923  --已使用
-#### a46987f3-7e93-418f-af85-a18f3b14e8ce  --已使用
-#### 9937e31d-8c81-41b4-9bf2-7231995d0d7b  --已使用
-#### 8a64ddbf-7097-4761-a624-ad33e5ef209e  --已使用
-#### f641894d-d703-4bd4-a359-0aaa057d66b7 --已使用
-
-抖音看效果::
-
-1.79 复制打开抖音，看看【ado2023的作品】# 苹果# iPhone17  https://v.douyin.com/_j4gah-vqao/ xSl:/ 05/08 d@N.jp 
+	#### 1.	使用 [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) 工具（git右侧release选择最新版本）（windows 版本还在开发中，稍后会提供），打开WDAInstaller之后，需要先输入AppleId跟密码登录，然后点击 ‘Install WDA-Runner’，静待一刻，就可以在手机上看到安装进度，点击WDA-Runner，会提示未信任的App，打开手机设置--通用--VPN与设备管理，然后选择AppleID的那一行，点击信任App，即可正常打开使用App，这种方式适用所有人，使用的是个人AppleID进行免费的7天有效期签名，7天后App会打不开，需要重新签名, ⚠️⚠️⚠️强烈建议新注册一个AppleID进行签名⚠️⚠️⚠️，官网地址：https://account.apple.com/account，WDAInstaller 虽然不会采集您的账号信息，但是需要将信息发送到苹果生成证书跟描述文件，有可能会影响您账号下原有的开发者账号，⚠️⚠️⚠️有可能会revoke您原来的证书⚠️⚠️⚠️！！如因操作失误导致证书revoke引起的损失，请自行负责！）
+#### 2.	如果您是专业的开发人员并有自己的开发者账号，嫌弃7天过期需要续签，可自行使用我git中提供的签名工具：
+##### 对于Apple Silicon芯片Mac：
+```bash 
+git clone https://github.com/ado2023-oss/WDA-Runner
+cd WDA-Runner
+chmox +x resign_binary
+resign_binary -cert 'Apple Development: xxx' -profile 'xxxx.mobileprovision' -os '18'
+```
+参数分别是:   	证书名字 - 描述文件路径 - 系统版本
+##### 对于Apple Intel芯片Mac：
+```bash 
+git clone https://github.com/ado2023-oss/WDA-Runner
+cd WDA-Runner
+chmox +x resign_intel
+resign_intel -cert 'Apple Development: xxx' -profile 'xxxx.mobileprovision' -os '18'
+```
 
 
-youtube::     https://youtube.com/shorts/Dz0HmWH1ZFI?si=Ox7YPAl5GfyDcvgG
+	### 巨魔玩家请使用专用版本！！(部分巨魔玩家安装好App，启动会crash，经过实测，需要下载电脑版本的爱思助手，工具箱选择：实时屏幕后，等画面出来之后即可正常使用！！！)
+	![](5.png)
+	
+	### 打开手机App，启动服务，服务启动之后： 
+	### 访问 http://xx.xx.xx.xx:47000/live 即可操作手机
+	### 示例图
+<img src="1.png" alt="示例图1" width="300" height="649">
+<img src="2.png" alt="示例图2" width="300" height="548">
+	
+	抖音看效果::
+	
+ ### 
+ ```bash
+ https://v.douyin.com/_j4gah-vqao/
+ ```
+ ### youtube:: 
+```bash
+ https://youtube.com/shorts/Dz0HmWH1ZFI?si=Ox7YPAl5GfyDcvgG
+```
+	
+### 补充说明: 
+#### 如果采用的是无线访问，有可能会比较卡顿，特别在一些网络比较复杂的情形，原因是带宽不足，目测带宽需要再2M/s以上方可稳定访问
+#### 提供一个有线（USB数据线链接MAC跟手机）方式的访问：
+#### Mac用户：
+```bash
+-- 安装homebrew，打开终端
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+-- 安装libimobiledevice
+brew install libimobiledevice
 
-#### 示例图
-![](1.png)
-![](2.png)
+-- 安装好brew 跟 libimobiledevice，打开2个终端，分别输入以下命令
+iproxy 47000 47000
+
+-- 另一个终端输入
+iproxy 47001 47001
+
+-- 最后浏览器打开
+http://127.0.0.1:47000/live
+```
+#### Windows用户：
+```bash
+-- 首先需要去官网下载 itunes 并安装，地址如下；安装好之后打开，数据线链接手机，并信任手机，itunes上可以看到你的手机说明连接正常，继续往下
+https://www.apple.com.cn/itunes/
+
+-- 下载iproxy工具并解压，一般选择64位的那个为准，比如： libimobiledevice.1.2.1-r1122-win-x64.zip
+https://github.com/libimobiledevice-win32/imobiledevice-net/releases
+
+-- 打开2个命令提示符窗口，第一个（执行以下命令后不要关闭）：
+-- 这是楼主下载地址是这个目录，需要以你的访问目录为准，把iproxy.exe 拖入命令提示符即可
+C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
+-win-x64\iproxy.exe 47000 47000
+
+-- 第二个窗口
+C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
+-win-x64\iproxy.exe 47001 47001
+
+-- 最后浏览器打开
+http://127.0.0.1:47000/live
