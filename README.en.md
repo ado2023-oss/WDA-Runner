@@ -26,6 +26,7 @@
 - There are 2 installation methods to choose from
 
 #### 1.	Using [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) Tool
+- After installation, a 🔧 icon will appear in the Mac menu status bar. (You may need to allow WDAInstaller in System Settings > Privacy & Security to run it.)
 	
 - Select the latest version from GitHub releases (Windows version is under development and will be available soon)
 

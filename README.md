@@ -24,6 +24,7 @@
 - 安装方式有如下2种，可自行选择安装
 
 #### 1.	使用 [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) 工具（git右侧release选择最新版本）（windows 版本还在开发中，稍后会提供）
+- 	安装好后，在mac顶部状态栏会出现一个🔧的图标就是（可能需要去Mac-设置-隐私与安全中运行WDAInstaller 运行）
 -  打开WDAInstaller之后，需要先输入AppleId跟密码登录(**⚠️⚠️⚠️强烈建议新注册一个AppleID进行签名⚠️⚠️⚠️，官网地址：https://account.apple.com/account, 有可能会revoke您原来的证书**)
 -  然后点击 ‘Install WDA-Runner’，静待一刻，就可以在手机上看到安装进度
 -  点击WDA-Runner，会提示未信任的App
