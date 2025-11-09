@@ -25,7 +25,7 @@
 - If you encounter "Installation package verification failed" error, please follow the steps below
 - There are 2 installation methods to choose from
 
-#### 1.	Using [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) Tool，[Windows Version](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.1.0/WDAInstaller_WindowsV1.1.0.zip)
+#### 1.	Using [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.1.0/WDAInstaller_MacOSV1.1.0.dmg) Tool，[Windows Version](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.1.0/WDAInstaller_WindowsV1.1.0.zip)
 - After installation, a 🔧 icon will appear in the Mac menu status bar. (You may need to allow WDAInstaller in System Settings > Privacy & Security to run it.)
 	
 - Select the latest version from GitHub releases (Windows version is under development and will be available soon)
@@ -173,3 +173,4 @@ http://127.0.0.1:47000/live
 #### 9937e31d-8c81-41b4-9bf2-7231995d0d7b  --Used
 #### 8a64ddbf-7097-4761-a624-ad33e5ef209e  --Used
 #### f641894d-d703-4bd4-a359-0aaa057d66b7 --Used
+
