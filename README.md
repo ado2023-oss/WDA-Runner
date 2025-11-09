@@ -23,7 +23,7 @@
 - 安装时如遇"安装包验证失败"错误，请按以下步骤操作
 - 安装方式有如下2种，可自行选择安装
 
-#### 1.	使用 [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) 工具（git右侧release选择最新版本）（windows 版本还在开发中，稍后会提供）
+#### 1.	使用 [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.1.0/WDAInstaller_MacOSV1.1.0.dmg) 工具（git右侧release选择最新版本）[windows版本点我](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.1.0/WDAInstaller_WindowsV1.1.0.zip)
 - 	安装好后，在mac顶部状态栏会出现一个🔧的图标就是（可能需要去Mac-设置-隐私与安全中运行WDAInstaller 运行）
 -  打开WDAInstaller之后，需要先输入AppleId跟密码登录(**⚠️⚠️⚠️强烈建议新注册一个AppleID进行签名⚠️⚠️⚠️，官网地址：https://account.apple.com/account, 有可能会revoke您原来的证书**)
 -  然后点击 ‘Install WDA-Runner’，静待一刻，就可以在手机上看到安装进度
@@ -31,6 +31,7 @@
 - 打开手机设置--通用--VPN与设备管理，然后选择AppleID的那一行，点击信任App，即可正常打开使用App
 - 这种方式适用所有人，使用的是个人AppleID进行免费的7天有效期签名，7天后App会打不开，需要重新签名
 - WDAInstaller 虽然不会采集您的账号信息，但是需要将信息发送到苹果生成证书跟描述文件，有可能会影响您账号下原有的开发者账号，⚠️⚠️⚠️**有可能会revoke您原来的证书**⚠️⚠️⚠️！！如因操作失误导致证书revoke引起的损失，请自行负责！）
+- windows版本在输入完账户密码之后，等待1分钟左右即可安装完成，如何一直没响应，可以尝试将手机数据线重新插拔再次安装
 
 #### 2.	如果您是专业的开发人员并有自己的开发者账号，嫌弃7天过期需要续签，可自行使用我git中提供的签名工具：
 ##### 对于Apple Silicon芯片Mac：
