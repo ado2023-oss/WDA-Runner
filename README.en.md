@@ -25,12 +25,13 @@
 - If you encounter "Installation package verification failed" error, please follow the steps below
 - There are 2 installation methods to choose from
 
-#### 1.	Using [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) Tool
+#### 1.	Using [WDAInstaller.dmg](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.0.0/WDAInstaller_1.0.0.dmg) Tool，[Windows Version](https://github.com/ado2023-oss/WDA-Runner/releases/download/1.1.0/WDAInstaller_WindowsV1.1.0.zip)
 - After installation, a 🔧 icon will appear in the Mac menu status bar. (You may need to allow WDAInstaller in System Settings > Privacy & Security to run it.)
 	
 - Select the latest version from GitHub releases (Windows version is under development and will be available soon)
 
 - Open WDAInstaller and enter your Apple ID and password to log in **(⚠️⚠️⚠️ Strongly recommend creating a new Apple ID for signing, May revoke your existing certificates ⚠️⚠️⚠️)**
+- For the Windows version, after entering your account password, the installation should complete in about 1 minute. If there's no response, try unplugging and reconnecting your phone's USB cable, then attempt the installation again.
 
 - Click 'Install WDA-Runner' and wait for the installation progress to appear on your phone
 
@@ -151,6 +152,7 @@ C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r
 -win-x64\iproxy.exe 47000 47000
 -- Second window:
 C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
+
 -win-x64\iproxy.exe 47001 47001
 -- Finally, open in browser:
 http://127.0.0.1:47000/live
