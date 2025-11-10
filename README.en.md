@@ -148,12 +148,9 @@ https://github.com/libimobiledevice-win32/imobiledevice-net/releases
 -- Open 2 command prompt windows:
 -- First window (do not close after execution):
 -- Use your actual download directory path
-C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
--win-x64\iproxy.exe 47000 47000
+C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122-win-x64\iproxy.exe 47000 47000
 -- Second window:
-C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
-
--win-x64\iproxy.exe 47001 47001
+C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122-win-x64\iproxy.exe 47001 47001
 -- Finally, open in browser:
 http://127.0.0.1:47000/live
 ```
@@ -173,4 +170,5 @@ http://127.0.0.1:47000/live
 #### 9937e31d-8c81-41b4-9bf2-7231995d0d7b  --Used
 #### 8a64ddbf-7097-4761-a624-ad33e5ef209e  --Used
 #### f641894d-d703-4bd4-a359-0aaa057d66b7 --Used
+
 
