@@ -102,12 +102,10 @@ https://github.com/libimobiledevice-win32/imobiledevice-net/releases
 
 -- 打开2个命令提示符窗口，第一个（执行以下命令后不要关闭）：
 -- 这是楼主下载地址是这个目录，需要以你的访问目录为准，把iproxy.exe 拖入命令提示符即可
-C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
--win-x64\iproxy.exe 47000 47000
+C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122-win-x64\iproxy.exe 47000 47000
 
 -- 第二个窗口
-C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122
--win-x64\iproxy.exe 47001 47001
+C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r1122-win-x64\iproxy.exe 47001 47001
 
 -- 最后浏览器打开
 http://127.0.0.1:47000/live
