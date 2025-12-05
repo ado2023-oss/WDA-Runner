@@ -112,10 +112,10 @@ C:\Users\Administrator>C:\Users\Administrator\Downloads\libimobiledevice.1.2.1-r
 http://127.0.0.1:47000/live
 
 ```
-## 放几组授权码
+## 放几组授权码 (如果全都失败了可以进群找管理员要)
 
-#### 22bc2103-2c25-4a81-a6ea-85a5158444ae 
-#### a65233c6-d9b4-4c6e-bc5b-42f6b1ed7fa3 
+#### 239517b1-9765-4588-81d2-ac15f8bd40ae
 #### 272da8d3-49c1-4e5d-8b95-c8c8a78e610f 
-#### 7c838094-fcf8-4020-a1e1-46436023b7be 
-#### a0c2e6b3-3a20-4805-b0a6-04a89ce3a0be
+#### 88fb4140-7c50-4822-884f-55ca71d8fb34
+#### 8ac079ec-c8e1-4bb9-990d-e323320e08b4
+#### d72aba58-61aa-4bad-bb1e-4bd2ef1a8f8f
