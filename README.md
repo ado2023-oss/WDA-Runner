@@ -40,9 +40,9 @@
 git clone https://github.com/ado2023-oss/WDA-Runner
 cd WDA-Runner
 chmox +x resign_binary
-resign_binary -cert 'Apple Development: xxx' -profile 'xxxx.mobileprovision' -os '18'
+./resign_binary 'Apple Development: xxx' 'xxxx.mobileprovision' '18'
 ```
-参数分别是:   	证书名字 - 描述文件路径 - 系统版本
+参数分别是:   	证书名字 - 描述文件路径 - 系统版本(如果是 16.6.1， 需要写成 16 )
 ##### 对于Apple Intel芯片Mac：
 ```bash 
 git clone https://github.com/ado2023-oss/WDA-Runner
