@@ -8,6 +8,8 @@
 
 ---
 
+## 下载地址： https://github.com/ado2023-oss/WDA-Runner/releases/tag/1.2.0
+
 ## 📅 版本更新日志
 
 ### 2026年02月21日
