@@ -25,7 +25,8 @@
 ### ⚠️ 重要提示
 ## IPA包未签名，无法直接通过爱思助手等工具安装
 
-## 巨魔玩家安装请使用 trollstore.ipa
+## 巨魔玩家安装请使用 trollstore.ipa，或者使用url安装：https://raw.githubusercontent.com/ado2023-oss/WDA-Runner/refs/heads/main/trollstore.ipa
+
 
 
 
