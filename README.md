@@ -28,5 +28,8 @@
 ## 巨魔玩家安装请使用 trollstore.ipa，或者使用url安装：https://raw.githubusercontent.com/ado2023-oss/WDA-Runner/refs/heads/main/trollstore.ipa
 
 
+## 赞赏
+<div><img src="zanshang.JPG" width="200" alt="赞赏">
 
-
+<img src="alipay.JPG" width="200" alt="赞赏">
+</div>
