@@ -26,7 +26,7 @@
 ## IPA包未签名，无法直接通过爱思助手等工具安装
 
 ## 巨魔玩家安装请使用 trollstore.ipa，或者使用url安装：https://raw.githubusercontent.com/ado2023-oss/WDA-Runner/refs/heads/main/trollstore.ipa
-
+# 巨魔安装完App之后，启动App会闪退，请使用以上工具刷入【开发者镜像】！
 
 ## 赞赏
 <div><img src="zanshang.JPG" width="200" alt="赞赏">
