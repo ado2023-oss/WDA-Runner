@@ -8,7 +8,7 @@
 
 ---
 
-## 下载地址： https://github.com/ado2023-oss/WDA-Runner/releases/tag/1.2.0
+## 下载地址： https://github.com/ado2023-oss/WDA-Runner/releases/tag/1.3.0
 
 ## 📅 版本更新日志
 
